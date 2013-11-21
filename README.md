@@ -1,12 +1,11 @@
-Lab6
-====
+# Lab6
 Documentation: C1C Snyder and I worked on the initial code for making the robot move together. We also shared timing 
 for the turns. 
 
-Basic Robot Motions
+## Basic Robot Motions
+Example code: This code will demonstrate each funciton and show how to set up and configure the timers.
 
-example code: This code will demonstrate each funciton and show how to set up and configure the timers.
-----------------------------------------------------------------------------------------------------
+```c
 #include <msp430.h> 
 #include "robotMotion.h"
 /*
@@ -46,8 +45,10 @@ void main(void) {
 		__delay_cycles(1000000);
 
 }
----------------------------------------------------------------------------------------
-Notes:
--Difference between the turns (big and small) is only one of timing. I change the time they are allowed to turn.
--moveForward has a longer time and a larger duty cycle than moveBakcward because there is a knob which slows the robot 
+```
+
+## Notes
+
+- Difference between the turns (big and small) is only one of timing. I change the time they are allowed to turn.
+- `moveForward` has a longer time and a larger duty cycle than moveBakcward because there is a knob which slows the robot 
 down as it moves forward. I want to make their distances closer to even. 
