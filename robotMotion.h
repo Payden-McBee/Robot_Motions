@@ -12,8 +12,10 @@
 
 //funciton declaration
 void clearModes();
-void turnRight();
-void turnLeft();
+void turnSmallRight();
+void turnBigRight();
+void turnSmallLeft();
+void turnBigLeft();
 void moveForward();
 void moveBackward();
 
