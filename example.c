@@ -3,6 +3,10 @@
 /*
  * example.c
  */
+//Created by: C2C Payden McBee
+//Created On: 21 Bovember 2013
+//ECE 382
+//Purpose: implement basic robot functions
 void example(void) {
     WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
 
