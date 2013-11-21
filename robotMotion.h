@@ -11,6 +11,8 @@
 //#define VAR 5
 
 //funciton declaration
+void initTimerOutputSignals();
+void configureA0andA1Timers();
 void clearModes();
 void turnSmallRight();
 void turnBigRight();
