@@ -46,18 +46,23 @@ void main(void) {
 
 	//while (1)
 	//{
+	__delay_cycles(1000000);
 	moveForward();
 
-	__delay_cycles(4000000);
+	__delay_cycles(1000000);
 
 	moveBackward();
 
-	__delay_cycles(4000000);
+	__delay_cycles(1000000);
 
 	turnSmallRight();
+	__delay_cycles(1000000);
 	turnSmallLeft();
-	turnBigRight();
+	__delay_cycles(1000000);
 	turnBigLeft();
+	__delay_cycles(1000000);
+	turnBigRight();
+	__delay_cycles(1000000);
 	//}
 
 
