@@ -1,9 +1,9 @@
 #include <msp430.h> 
 #include "robotMotion.h"
 /*
- * main.c
+ * example.c
  */
-void main(void) {
+void example(void) {
     WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
 
     initTimerOutputSignals();
