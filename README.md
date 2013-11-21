@@ -1,4 +1,4 @@
-# Lab6
+# Robot Motions
 Documentation: C1C Snyder and I worked on the initial code for making the robot move together. We also shared timing 
 for the turns. 
 
@@ -9,9 +9,9 @@ Example code: This code will demonstrate each funciton and show how to set up an
 #include <msp430.h> 
 #include "robotMotion.h"
 /*
- * main.c
+ * example.c
  */
-void main(void) {
+void example(void) {
     WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
 
     initTimerOutputSignals();
