@@ -4,7 +4,9 @@ for the turns.
 
 ## Basic Robot Motions
 Example code: This code will demonstrate each funciton and show how to set up and configure the timers.
-
+This code is for a DC motor driver. There are two motors which each power a wheel. The signals delivered to the
+motor are determined by pulse width modulation, using Timer A and its signals, TA0.0, TA0.1, TA1.0, and TA1.1 
+to send information to the motor driver.
 ```c
 #include <msp430.h> 
 #include "robotMotion.h"
